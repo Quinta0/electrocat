@@ -38,12 +38,12 @@ const default_configuration = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://www.github.com/Aevstiel",
+  fastlink: "https://www.github.com/Quinta0",
   openLastVisitedTab: true,
   tabs: [
     {
       name: "astiel",
-      background_url: "src/img/banners/lycia-2.jpg",
+      background_url: "src/img/banners/banner_05.gif",
       categories: [
         {
           name: "bookmarks",
@@ -55,16 +55,10 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "Apple",
+              name: "iCorsi",
               url: "https:///account.apple.com/",
-              icon: "brand-apple",
+              icon: "book",
               icon_color: palette.mauve,
-            },
-            {
-              name: "Lyra",
-              url: "https:///lyra.it.com/",
-              icon: "flare",
-              icon_color: palette.flamingo,
             },
           ],
         },
@@ -78,21 +72,15 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "Proton Mail",
-              url: "https://calendar.google.com",
-              icon: "mailbox",
-              icon_color: palette.mauve,
-            },
-            {
               name: "Sheets",
               url: "https://docs.google.com/spreadsheets",
               icon: "table",
               icon_color: palette.flamingo,
             },
             {
-              name: "Filen",
-              url: "https://filen.io",
-              icon: "cloud-storm",
+              name: "Claude",
+              url: "https://claude.ai/new",
+              icon: "brain",
               icon_color: palette.lavender,
             },
           ],
@@ -101,15 +89,9 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "Defcon",
-              url: "https://www.defconlevel.com",
-              icon: "alert-hexagon",
-              icon_color: palette.red,
-            },
-            {
-              name: "Legion",
-              url: "https://ildu.com.ua",
-              icon: "tank",
+              name: "Youtube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
               icon_color: palette.mauve,
             },
             {
@@ -117,12 +99,6 @@ const default_configuration = {
               url: "https://finance.yahoo.com",
               icon: "chart-dots-2",
               icon_color: palette.flamingo,
-            },
-            {
-              name: "Грунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.lavender,
             },
             {
               name: "Translate",
@@ -136,7 +112,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/lycia-3.jpg",
+      background_url: "src/img/banners/banner_17.gif",
       categories: [
         {
           name: "development",
@@ -194,27 +170,15 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "Debian Wiki",
-              url: "https://wiki.debian.org",
-              icon: "brand-debian",
-              icon_color: palette.red,
-            },
-            {
-              name: "Hacker News",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.mauve,
-            },
-            {
-              name: "Apple Wiki",
-              url: "https://theapplewiki.com/wiki",
-              icon: "brand-apple",
-              icon_color: palette.lavender,
-            },
-            {
               name: "Champagne",
               url: "https://champagne.pages.dev",
               icon: "skull",
+              icon_color: palette.peach,
+            },
+            {
+              name: "Coursera",
+              url: "https://www.coursera.org/",
+              icon: "target",
               icon_color: palette.peach,
             },
           ],
@@ -223,62 +187,21 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/lycia-1.jpg",
+      background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
           name: "social media",
           links: [
             {
-              name: "Instagram",
-              url: "https://www.instagram.com",
-              icon: "brand-instagram",
-              icon_color: palette.red,
-            },
-            {
-              name: "Facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.mauve,
-            },
-            {
               name: "Reddit",
-              url: "https://www.reddit.com/r/unixporn",
+              url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: palette.flamingo,
             },
             {
-              name: "Dread",
+              name: "Unix",
               url: "https://www.reddit.com/r/unixporn",
               icon: "shield-checkered",
-              icon_color: palette.lavender,
-            },
-          ],
-        },
-        {
-          name: "gaming",
-          links: [
-            {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.red,
-            },
-            {
-              name: "Steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
-              icon_color: palette.mauve,
-            },
-            {
-              name: "Epic Games",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.flamingo,
-            },
-            {
-              name: "Nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
               icon_color: palette.lavender,
             },
           ],
