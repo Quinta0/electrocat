@@ -2,29 +2,30 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato, lycia
-const preferredLightTheme = lycia;
-const preferredDarkTheme = lycia;
+const preferredLightTheme = mocha;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "Alexandria",
+    location: "Bellinzona",
     scale: "C",
   },
   clock: {
-    format: "k:i p",
+    format: "h:i",
     icon_color: palette.maroon,
   },
   additionalClocks: [
-    {
-      label: "ALX",
-      timezone: "Africa/Cairo",
-      format: "h:i",
-      icon_color: palette.mauve,
-    },
-  ],
+  {
+    label: "NYC", // Label for the clock
+    timezone: "America/New_York", // IANA timezone name (handles DST automatically)
+    format: "h:i", // 12-hour format with leading zero (09:30 PM)
+    locale: "en-US", // Locale for date/time formatting
+    icon_color: palette.blue // Optional different icon color
+  }
+],
   search: {
     engines: {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
