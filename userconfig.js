@@ -42,7 +42,7 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "astiel",
+      name: "daily",
       background_url: "src/img/banners/banner_05.gif",
       categories: [
         {
