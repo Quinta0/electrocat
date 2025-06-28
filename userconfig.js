@@ -237,6 +237,22 @@ const default_configuration = {
         },
       ],
     },
+    {
+      name: "Homelab",
+      background_url: "src/img/banners/banner_06.gif",
+      categories: [
+        {
+          links: [
+            {
+              name: "Homepage",
+              url: "http://192.168.1.121:3000/",
+              icon: "house",
+              icon_color: palette.flamingo,
+            },
+          ],
+        },
+      ],
+    },
   ],
 };
 
