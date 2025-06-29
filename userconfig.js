@@ -251,6 +251,8 @@ const default_configuration = {
               icon_color: palette.flamingo,
             },
           ],
+        },
+        {
           name:"Portainer and Docker",
           links:[
             {
