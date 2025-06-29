@@ -242,6 +242,7 @@ const default_configuration = {
       background_url: "src/img/banners/banner_06.gif",
       categories: [
         {
+          name: "Head",
           links: [
             {
               name: "Homepage",
@@ -250,6 +251,15 @@ const default_configuration = {
               icon_color: palette.flamingo,
             },
           ],
+          name:"Portainer and Docker",
+          links:[
+            {
+              name: "Portainer",
+              urls: "https://192.168.1.123:9443/#!/home",
+              icon: "crane",
+              icon_color: palette.flamingo,
+            }
+          ]
         },
       ],
     },
