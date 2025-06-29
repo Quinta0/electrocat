@@ -264,7 +264,7 @@ const default_configuration = {
           links:[
             {
               name: "Portainer",
-              urls: "https://192.168.1.123:9443/",
+              urls: "https://192.168.1.123:9443/#!/auth",
               icon: "crane",
               icon_color: palette.flamingo,
             }
