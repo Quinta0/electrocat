@@ -242,14 +242,21 @@ const default_configuration = {
       background_url: "src/img/banners/banner_06.gif",
       categories: [
         {
-          name: "Head",
+          name: "Proxmox",
           links: [
+            {
+              name: "PVE",
+              url: "https://192.168.1.108:8006/",
+              icon: "drawer",
+              icon_color: palette.flamingo,
+            },
             {
               name: "Homepage",
               url: "http://192.168.1.121:3000/",
-              icon: "house",
+              icon: "scroll",
               icon_color: palette.flamingo,
             },
+            
           ],
         },
         {
