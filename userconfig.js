@@ -270,7 +270,7 @@ const default_configuration = {
           links:[
             {
               name: "Portainer",
-              urls: "https://192.168.1.123:9443/#!/auth",
+              url: "https://192.168.1.123:9443/#!/auth",
               icon: "crane",
               icon_color: palette.flamingo,
             },
@@ -281,7 +281,7 @@ const default_configuration = {
           liks:[
             {
               name: "Porkbun",
-              urls: "https://porkbun.com/",
+              url: "https://porkbun.com/",
               icon: "bun",
               icon_color: palette.flamingo,
             },
