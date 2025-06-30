@@ -2,8 +2,8 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato, lycia
-const preferredLightTheme = "mocha";
-const preferredDarkTheme = "mocha";
+const preferredLightTheme = mocha;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
