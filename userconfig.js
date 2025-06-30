@@ -2,8 +2,8 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato, lycia
-const preferredLightTheme = mocha;
-const preferredDarkTheme = mocha;
+const preferredLightTheme = "mocha";
+const preferredDarkTheme = "mocha";
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -56,7 +56,7 @@ const default_configuration = {
             },
             {
               name: "iCorsi",
-              url: "https:///account.apple.com/",
+              url: "https://account.apple.com/",
               icon: "book",
               icon_color: palette.mauve,
             },
@@ -262,12 +262,11 @@ const default_configuration = {
               icon: "scroll",
               icon_color: palette.flamingo,
             },
-            
           ],
         },
         {
-          name:"Portainer and Docker",
-          links:[
+          name: "Portainer and Docker",
+          links: [
             {
               name: "Portainer",
               url: "https://192.168.1.123:9443/#!/auth",
@@ -277,15 +276,15 @@ const default_configuration = {
           ],
         },
         {
-          name:"Domain page",
-          liks:[
+          name: "Domain page",
+          links: [
             {
               name: "Porkbun",
               url: "https://porkbun.com/",
               icon: "bun",
               icon_color: palette.flamingo,
-            },
-          ],
+            }
+          ]
         },
       ],
     },
