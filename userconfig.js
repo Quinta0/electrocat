@@ -284,8 +284,8 @@ const default_configuration = {
               urls: "https://porkbun.com/",
               icon: "bun",
               icon_color: palette.flamingo,
-            },
-          ],
+            }
+          ]
         },
       ],
     },
