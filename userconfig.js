@@ -247,7 +247,7 @@ const default_configuration = {
             {
               name: "PVE",
               url: "https://192.168.1.108:8006/",
-              icon: "drawer",
+              icon: "device-imac-cog",
               icon_color: palette.flamingo,
             },
             {
@@ -259,7 +259,7 @@ const default_configuration = {
             {
               name: "Homepage",
               url: "http://192.168.1.121:3000/",
-              icon: "scroll",
+              icon: "swipe",
               icon_color: palette.flamingo,
             },
           ],
@@ -281,7 +281,7 @@ const default_configuration = {
             {
               name: "Porkbun",
               url: "https://porkbun.com/",
-              icon: "bun",
+              icon: "pig",
               icon_color: palette.flamingo,
             },
           ],
