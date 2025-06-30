@@ -283,8 +283,8 @@ const default_configuration = {
               url: "https://porkbun.com/",
               icon: "bun",
               icon_color: palette.flamingo,
-            }
-          ]
+            },
+          ],
         },
       ],
     },
