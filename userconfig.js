@@ -251,6 +251,12 @@ const default_configuration = {
               icon_color: palette.flamingo,
             },
             {
+              name: "Proxmox VE Helper-Scripts",
+              url: "https://community-scripts.github.io/ProxmoxVE/,
+              icon: "list",
+              icon_color: palette.flamingo,
+            },
+            {
               name: "Homepage",
               url: "http://192.168.1.121:3000/",
               icon: "scroll",
@@ -267,8 +273,19 @@ const default_configuration = {
               urls: "https://192.168.1.123:9443/#!/auth",
               icon: "crane",
               icon_color: palette.flamingo,
-            }
-          ]
+            },
+          ],
+        },
+        {
+          name:"Domain page"
+          liks:[
+            {
+              name: "Porkbun",
+              urls: "https://porkbun.com/",
+              icon: "bun",
+              icon_color: palette.flamingo,
+            },
+          ],
         },
       ],
     },
