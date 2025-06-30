@@ -252,7 +252,7 @@ const default_configuration = {
             },
             {
               name: "Proxmox VE Helper-Scripts",
-              url: "https://community-scripts.github.io/ProxmoxVE/,
+              url: "https://community-scripts.github.io/ProxmoxVE/",
               icon: "list",
               icon_color: palette.flamingo,
             },
@@ -284,8 +284,8 @@ const default_configuration = {
               urls: "https://porkbun.com/",
               icon: "bun",
               icon_color: palette.flamingo,
-            }
-          ]
+            },
+          ],
         },
       ],
     },
