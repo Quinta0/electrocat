@@ -277,7 +277,7 @@ const default_configuration = {
           ],
         },
         {
-          name:"Domain page"
+          name:"Domain page",
           liks:[
             {
               name: "Porkbun",
