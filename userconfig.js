@@ -238,7 +238,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "Homelab",
+      name: "Homelab ",
       background_url: "src/img/banners/banner_06.gif",
       categories: [
         {
