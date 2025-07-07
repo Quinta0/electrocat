@@ -187,6 +187,12 @@ const default_configuration = {
               icon: "Copyright",
               icon_color: palette.peach,
             },
+            {
+              name: "Cognitive Class",
+              url: "https://courses.cognitiveclass.ai/dashboard1",
+              icon: "Mastercard",
+              icon_color: palette.peach,
+            },
           ],
         },
       ],
