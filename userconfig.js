@@ -181,6 +181,12 @@ const default_configuration = {
               icon: "target",
               icon_color: palette.peach,
             },
+            {
+              name: "Class Central",
+              url: "https://www.classcentral.com/u/5078801",
+              icon: "Copyright",
+              icon_color: palette.peach,
+            },
           ],
         },
       ],
