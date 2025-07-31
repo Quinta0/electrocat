@@ -129,12 +129,6 @@ const default_configuration = {
               icon: "brand-openai",
               icon_color: palette.mauve,
             },
-            {
-              name: "Stack Overflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.flamingo,
-            },
           ],
         },
         {
