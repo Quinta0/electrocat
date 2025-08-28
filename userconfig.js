@@ -56,7 +56,7 @@ const default_configuration = {
             },
             {
               name: "iCorsi",
-              url: "https://account.apple.com/",
+              url: "https://www.icorsi.ch/",
               icon: "book",
               icon_color: palette.mauve,
             },
