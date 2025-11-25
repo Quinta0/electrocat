@@ -170,6 +170,12 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
+              name: "Champagne",
+              url: "https://fmhy.net/",
+              icon: "pacman",
+              icon_color: palette.peach,
+            },
+            {
               name: "Coursera",
               url: "https://www.coursera.org/",
               icon: "target",
