@@ -170,7 +170,7 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "Champagne",
+              name: "FMHY",
               url: "https://fmhy.net/",
               icon: "pacman",
               icon_color: palette.peach,
